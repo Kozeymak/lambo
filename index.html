@@ -306,51 +306,99 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> <!-- Сделать слайдер -->
 
     <!-- 38:00 - 50:30 -->
-
-    <footer class="footer">
+    <section class="quote">
       <div class="container">
-        <h3 class="footer__title">
-            
-        </h3>
-        <div class="footer_top">
-          <ul class="footer__info">
-            <li>
-              <dl>
-                <dt>ОБЩИЕ</dt>
-                <dd><a href="tel:+351282405600">+(351) 282 405 600</a></dd>
-                <dd><a href="tel:+351282405697">+(351) 282 405 697</a></dd>
-                <dd><a href="mailto:info@autodromodoalgarve.com">info@autodromodoalgarve.com</a></dd>
-              </dl>
-            </li>
-            <li>
-              <dl>
-                <dt>БИЛЕТЫ</dt>
-                <dd><a href="tel:+351282405600">+(351) 282 405 600</a></dd>
-                <dd><a href="mailto:tickets@autodromodoalgarve.com">tickets@autodromodoalgarve.com</a></dd>
-              </dl>
-            </li>
-            <li>
-              <ul class="social__list">
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </li>
-          </ul>
-          <div class="footer__address"></div>
+        <div class="quote__box">
+          <blockquote class="blockquote">
+            <cite class="blockquote__name">
+              <span>Чемпион Am</span>
+              Анджей Левандовски
+            </cite>
+            <p class="blockquote__text">
+              «Я очень доволен титулом, моей второй победой в Am и четвертой в Super Trofeo, мне очень приятно делать это в этом году, потому что уровень соревнований очень высок. Должен сказать, сегодня было довольно легко, так как я все время контролировал ситуацию».
+            </p>
+          </blockquote>
+  
+          <blockquote class="blockquote">
+            <cite class="blockquote__name">
+              <span>Обладатель кубка Lamborghini</span>
+              Жерар ван дер Хорст 
+            </cite>
+            <p class="blockquote__text">
+              «Я очень доволен титулом, моей второй победой в Am и четвертой в Super Trofeo, мне очень приятно делать это в этом году, потому что уровень соревнований очень высок. Должен Обладатель кубка Lamborghini  добавил: «Здорово выиграть титул, спустя четыре года после последнего, а за это время произошло так много всего. Из-за COVID-19, а затем моей тяжелой аварии в Барселоне я не мог так много ездить в последние годы, поэтому я очень доволен своим возвращением. Сегодня утром была тяжелая гонка, но я справился». сказать, сегодня было довольно легко, так как я все время контролировал ситуацию».
+          </blockquote>
         </div>
-        <div class="footer__bottom">
-          <!--1:00:00-->
+        <img class="quote-img" src="images/quote.png" alt="">
+      </div>
+    </section>
+
+    </main>
+
+  <footer class="footer">
+    <div class="container">
+      <h3 class="footer__title">
+          Контакты
+      </h3>
+      <div class="footer__top">
+        <ul class="footer__info">
+          <li class="footer__info-item">
+            <dl>
+              <dt>ОБЩИЕ</dt>
+              <dd><a href="tel:+351282405600">+(351) 282 405 600</a></dd>
+              <dd><a href="tel:+351282405697">+(351) 282 405 697</a></dd>
+              <dd><a href="mailto:info@autodromodoalgarve.com">info@autodromodoalgarve.com</a></dd>
+            </dl>
+          </li>
+          <li class="footer__info-item">
+            <dl>
+              <dt>БИЛЕТЫ</dt>
+              <dd><a href="tel:+351282405600">+(351) 282 405 600</a></dd>
+              <dd><a href="mailto:tickets@autodromodoalgarve.com">tickets@autodromodoalgarve.com</a></dd>
+            </dl>
+          </li>
+          <li class="footer__info-item">
+            <ul class="social-list">
+              <li class="social-list__item">
+                <a href="#" class="social-list__link"></a>
+                <img src="images/youtube.svg" alt="" class="social-list__icon">
+              </li>
+              <li class="social-list__item">
+                <a href="#" class="social-list__link"></a>
+                <img src="images/instagram.svg" alt="" class="social-list__icon">
+              </li>
+              <li class="social-list__item">
+                <a href="#" class="social-list__link"></a>
+                <img src="images/facebook.svg" alt="" class="social-list__icon">
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="footer__address">
+          <p class="footer__address-title">
+            АДРЕС
+          </p>
+          <address class="footer__address-text">
+            Sitio do Escampadinho, Mexilhoeira Grande, 8500-148 Portimao, Portugal
+          </address>
+          <div id="map"></div>
         </div>
       </div>
-    </footer>
+      <div class="footer__bottom">
+        <a class="footer__bottom-link" href="#">Design by Varvara Prokopchuk</a>
+        <a href="#" class="footer__logo">
+          <img src="images/logo-footer.svg" alt="logo" class="footer__logo-img">
+        </a>
+        <a class="footer__bottom-link" href="#">Политика конфиденциальности </a>
+      </div>
+    </div>
+  </footer>
 
-  </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9.2.3/swiper-bundle.min.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
   <script src="js/main.js"></script>
 </body>
 </html>
